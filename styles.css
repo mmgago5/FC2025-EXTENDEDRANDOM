@@ -1,0 +1,44 @@
+
+body {
+  background: #000;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+.titulo {
+  color: gold;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 0 5px white;
+  border: 2px solid gold;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.autor {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.team {
+  width: 45%;
+  background: #111;
+  padding: 10px;
+  border-radius: 10px;
+}
+#botonVS {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+}
+img {
+  width: 100px;
+  margin: 10px;
+}
